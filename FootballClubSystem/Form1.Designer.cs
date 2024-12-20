@@ -28,104 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.btnMatches = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
-            // tableLayoutPanel2
+            // tableLayoutPanel3
             // 
-            this.tableLayoutPanel2.ColumnCount = 3;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34F));
-            this.tableLayoutPanel2.Controls.Add(this.button6, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.btnMatches, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.button4, 2, 2);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox2, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.dataGridView2, 0, 1);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 12);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 3;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(825, 490);
-            this.tableLayoutPanel2.TabIndex = 0;
+            this.tableLayoutPanel3.ColumnCount = 3;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel3.Controls.Add(this.dataGridView3, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox3, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.button5, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.button7, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.button8, 2, 2);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 12);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 3;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(776, 426);
+            this.tableLayoutPanel3.TabIndex = 0;
             // 
-            // button6
+            // dataGridView3
             // 
-            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.button6.Location = new System.Drawing.Point(69, 411);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(134, 59);
-            this.button6.TabIndex = 19;
-            this.button6.Text = "Новости";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // btnMatches
-            // 
-            this.btnMatches.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnMatches.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnMatches.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.btnMatches.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnMatches.Location = new System.Drawing.Point(341, 411);
-            this.btnMatches.Name = "btnMatches";
-            this.btnMatches.Size = new System.Drawing.Size(134, 59);
-            this.btnMatches.TabIndex = 20;
-            this.btnMatches.Text = "Матчи";
-            this.btnMatches.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button4.Image = global::FootballClubSystem.Properties.Resources.WINWORD_stm3vEeXvl;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button4.Location = new System.Drawing.Point(617, 411);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(134, 59);
-            this.button4.TabIndex = 21;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tableLayoutPanel2.SetColumnSpan(this.comboBox2, 3);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(233, 14);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(359, 21);
-            this.comboBox2.TabIndex = 22;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.dataGridView3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tableLayoutPanel2.SetColumnSpan(this.dataGridView2, 3);
-            this.dataGridView2.Location = new System.Drawing.Point(3, 52);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(819, 337);
-            this.dataGridView2.TabIndex = 23;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tableLayoutPanel3.SetColumnSpan(this.dataGridView3, 3);
+            this.dataGridView3.Location = new System.Drawing.Point(3, 45);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(770, 292);
+            this.dataGridView3.TabIndex = 0;
+            // 
+            // button5
+            // 
+            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button5.Location = new System.Drawing.Point(61, 353);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(134, 59);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "Новости";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button7.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button7.Location = new System.Drawing.Point(317, 353);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(134, 59);
+            this.button7.TabIndex = 2;
+            this.button7.Text = "Матчи";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button8.Image = global::FootballClubSystem.Properties.Resources.WINWORD_YQTtIiHd8B;
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button8.Location = new System.Drawing.Point(577, 353);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(134, 59);
+            this.button8.TabIndex = 3;
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Сортировка по дате",
+            "Сортировка по цене",
+            "Сортировка по названию"});
+            this.comboBox3.Location = new System.Drawing.Point(259, 10);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(250, 25);
+            this.comboBox3.TabIndex = 4;
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(849, 514);
-            this.Controls.Add(this.tableLayoutPanel2);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tableLayoutPanel3);
             this.Name = "Form1";
-            this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -144,6 +148,12 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.ComboBox comboBox3;
     }
 }
 

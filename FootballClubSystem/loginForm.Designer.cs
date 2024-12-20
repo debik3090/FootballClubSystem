@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.txtLoginPassword = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnMatches = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.txtLoginEmail = new System.Windows.Forms.TextBox();
-            this.btnLoginSubmit = new System.Windows.Forms.Button();
-            this.txtLoginPassword = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.btnRegister = new System.Windows.Forms.Button();
+            this.btnLoginSubmit = new System.Windows.Forms.Button();
+            this.txtLoginEmail = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,12 +48,12 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34F));
             this.tableLayoutPanel1.Controls.Add(this.txtLoginPassword, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.button4, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.btnMatches, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.button2, 2, 4);
             this.tableLayoutPanel1.Controls.Add(this.btnRegister, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnLoginSubmit, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.txtLoginEmail, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 4);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
@@ -65,6 +65,30 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(776, 426);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // txtLoginPassword
+            // 
+            this.txtLoginPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel1.SetColumnSpan(this.txtLoginPassword, 3);
+            this.txtLoginPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.txtLoginPassword.Location = new System.Drawing.Point(201, 197);
+            this.txtLoginPassword.Name = "txtLoginPassword";
+            this.txtLoginPassword.Size = new System.Drawing.Size(373, 31);
+            this.txtLoginPassword.TabIndex = 13;
+            this.txtLoginPassword.Text = "Пароль";
+            // 
+            // button4
+            // 
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button4.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.button4.Location = new System.Drawing.Point(61, 13);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(134, 59);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "Вход";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -104,16 +128,17 @@
             this.button2.TabIndex = 5;
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // txtLoginEmail
+            // btnRegister
             // 
-            this.txtLoginEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tableLayoutPanel1.SetColumnSpan(this.txtLoginEmail, 3);
-            this.txtLoginEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.txtLoginEmail.Location = new System.Drawing.Point(201, 112);
-            this.txtLoginEmail.Name = "txtLoginEmail";
-            this.txtLoginEmail.Size = new System.Drawing.Size(373, 31);
-            this.txtLoginEmail.TabIndex = 10;
-            this.txtLoginEmail.Text = "Логин";
+            this.btnRegister.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnRegister.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.btnRegister.Location = new System.Drawing.Point(566, 13);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(155, 59);
+            this.btnRegister.TabIndex = 8;
+            this.btnRegister.Text = "Регистрация";
+            this.btnRegister.UseVisualStyleBackColor = false;
             // 
             // btnLoginSubmit
             // 
@@ -127,41 +152,16 @@
             this.btnLoginSubmit.Text = "Войти";
             this.btnLoginSubmit.UseVisualStyleBackColor = false;
             // 
-            // txtLoginPassword
+            // txtLoginEmail
             // 
-            this.txtLoginPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tableLayoutPanel1.SetColumnSpan(this.txtLoginPassword, 3);
-            this.txtLoginPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.txtLoginPassword.Location = new System.Drawing.Point(201, 197);
-            this.txtLoginPassword.Name = "txtLoginPassword";
-            this.txtLoginPassword.Size = new System.Drawing.Size(373, 31);
-            this.txtLoginPassword.TabIndex = 13;
-            this.txtLoginPassword.Text = "Пароль";
-            // 
-            // button4
-            // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.button4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button4.Location = new System.Drawing.Point(61, 13);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(134, 59);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Вход";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // btnRegister
-            // 
-            this.btnRegister.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnRegister.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.btnRegister.Location = new System.Drawing.Point(566, 13);
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(155, 59);
-            this.btnRegister.TabIndex = 8;
-            this.btnRegister.Text = "Регистрация";
-            this.btnRegister.UseVisualStyleBackColor = false;
+            this.txtLoginEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel1.SetColumnSpan(this.txtLoginEmail, 3);
+            this.txtLoginEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.txtLoginEmail.Location = new System.Drawing.Point(201, 112);
+            this.txtLoginEmail.Name = "txtLoginEmail";
+            this.txtLoginEmail.Size = new System.Drawing.Size(373, 31);
+            this.txtLoginEmail.TabIndex = 10;
+            this.txtLoginEmail.Text = "Логин";
             // 
             // loginForm
             // 
