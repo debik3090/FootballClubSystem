@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\GitHub\\FootballClubSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|c:\\users\\user\\documents\\github\\footballclubsystem\\footballclubsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|solutionrelative:footballclubsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|c:\\users\\user\\documents\\github\\footballclubsystem\\footballclubsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|solutionrelative:footballclubsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|C:\\Users\\USER\\Documents\\GitHub\\FootballClubSystem\\footballclubsystem\\matchadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|solutionrelative:footballclubsystem\\matchadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|c:\\users\\user\\documents\\github\\footballclubsystem\\footballclubsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|solutionrelative:footballclubsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|C:\\Users\\USER\\Documents\\GitHub\\FootballClubSystem\\footballclubsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|solutionrelative:footballclubsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|c:\\users\\user\\documents\\github\\footballclubsystem\\footballclubsystem\\matchadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28C2CF9F-8B38-4CC1-8221-D14A21AB4140}|FootballClubSystem\\FootballClubSystem.csproj|solutionrelative:footballclubsystem\\matchadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\FootballClubSystem\\FootballClubSystem\\Form1.cs",
-              "RelativeDocumentMoniker": "FootballClubSystem\\Form1.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\GitHub\\FootballClubSystem\\FootballClubSystem\\Form1.cs",
-              "RelativeToolTip": "FootballClubSystem\\Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwGkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T14:13:59.94Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -59,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "loginForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\FootballClubSystem\\FootballClubSystem\\loginForm.cs",
               "RelativeDocumentMoniker": "FootballClubSystem\\loginForm.cs",
@@ -71,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\GitHub\\FootballClubSystem\\FootballClubSystem\\Form1.cs",
               "RelativeDocumentMoniker": "FootballClubSystem\\Form1.cs",

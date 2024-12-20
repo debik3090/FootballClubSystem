@@ -102,43 +102,18 @@ namespace FootballClubSystem
             DatabaseHelper.ExecuteNonQuery(query, parameters);
         }
 
-        // Обработчик кнопки добавления матча
-        private void btnAddMatch_Click(object sender, EventArgs e)
-        {
-            string homeTeam = txtHomeTeam.Text;
-            string awayTeam = txtAwayTeam.Text;
-            DateTime matchDate = dtpMatchDate.Value;
-            decimal ticketPrice = numericTicketPrice.Value;
-
-            AddMatch(homeTeam, awayTeam, matchDate, ticketPrice);
-            LoadMatches();
-
-            MessageBox.Show("Матч добавлен!");
-        }
-
-        // Кнопки перехода на другие формы
-        private void btnNews_Click(object sender, EventArgs e)
-        {
-            NewsForm newsForm = new NewsForm();
-            newsForm.Show();
-        }
-
-        private void btnPersonalCabinet_Click(object sender, EventArgs e)
-        {
-            PersonalCabinetForm personalCabinetForm = new PersonalCabinetForm();
-            personalCabinetForm.Show();
-        }
-
-        // Код инициализации формы
-        private void InitializeComponent()
-        {
-            // Инициализация компонентов (будет сгенерировано автоматически)
-        }
+       
+        
 
         // Загрузка данных при запуске формы
         private void Form1_Load(object sender, EventArgs e)
         {
             LoadMatches();
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
