@@ -1,0 +1,8 @@
+C:\Users\USER\source\repos\FootballClubSystem\FootballClubSystem\obj\Debug\FootballClubSystem.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\FootballClubSystem\FootballClubSystem\obj\Debug\FootballClubSystem.Form1.resources
+C:\Users\USER\source\repos\FootballClubSystem\FootballClubSystem\obj\Debug\FootballClubSystem.loginForm.resources
+C:\Users\USER\source\repos\FootballClubSystem\FootballClubSystem\obj\Debug\FootballClubSystem.MatchAdminForm.resources
+C:\Users\USER\source\repos\FootballClubSystem\FootballClubSystem\obj\Debug\FootballClubSystem.Properties.Resources.resources
+C:\Users\USER\source\repos\FootballClubSystem\FootballClubSystem\obj\Debug\FootballClubSystem.RegisterForm.resources
+C:\Users\USER\source\repos\FootballClubSystem\FootballClubSystem\obj\Debug\FootballClubSystem.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\FootballClubSystem\FootballClubSystem\obj\Debug\FootballClubSystem.csproj.CoreCompileInputs.cache
